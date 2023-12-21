@@ -7,9 +7,9 @@ class Workbook:
         else:
             workbookPage = workbook.create_sheet(proccessId)
 
-    def defineWorkbook(workbookPage):
+    def defineWorkbook(workbookPage, Proccess):
         workbookPage['A1'].value = "Número do Processo"
-        workbookPage['A2'].value = proccess_id
+        workbookPage['A2'].value = 
         workbookPage['B1'].value = "Classe do Processo"
         workbookPage['B2'].value = proccess_class
         workbookPage['C1'].value = "Assunto do Processo"

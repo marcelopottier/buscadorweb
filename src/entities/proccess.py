@@ -1,6 +1,5 @@
 class Proccess:
-    def __init__(self, processoId, processoClasse, processoAssunto, processoForo, processoVara, processoJuiz, processoDistribuicao, processoControle, processoArea, processoValor,
-                  partesProcesso, arrDataMovimentacoes, arrDescricaoMovimentacoes):
+    def __init__(self, processoId, processoClasse, processoAssunto, processoForo, processoVara, processoJuiz, processoDistribuicao, processoControle, processoArea, processoValor, partesProcesso, arrDataMovimentacoes, arrDescricaoMovimentacoes):
         self.processoId = processoId
         self.processoClasse = processoClasse
         self.processoAssunto = processoAssunto
