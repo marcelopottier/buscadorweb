@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 import openpyxl
 
 
-def search(expand):
+def getDataFromWeb(expand):
     expand.click()
     processoId = driver.find_element(By.XPATH, "//span[@id='numeroProcesso']").text
     processoClasse = driver.find_element(By.XPATH, "//span[@id='classeProcesso']").text
