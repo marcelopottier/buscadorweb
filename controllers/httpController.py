@@ -6,3 +6,5 @@ route = flask_adapter.route
 @route('/')
 def home():
     return 'Resultado: Algo da rota no adaptador'
+
+
