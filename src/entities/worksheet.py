@@ -1,8 +1,11 @@
+import openpyxl
+from src.entities.proccess import Proccess
+
 class Workbook:
     def __init__(self):
-        self.workbook = openpyxl.load_workbook('dados.xlsx')
-    def createWorkbookPage(workbook, proccessId):
-        if proccessId in workbook.sheetnames:
+        self.workbook = openpyxl.load_workbook('DEFINIR PLANILHA')
+    def createWorkbookPage(workbook, Proccess):
+        if Proccess.pri in workbook.sheetnames:
             workbookPage = workbook[proccessId]
         else:
             workbookPage = workbook.create_sheet(proccessId)
